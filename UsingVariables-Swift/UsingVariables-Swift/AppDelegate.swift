@@ -18,6 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         // Insert code here...
         
+        var height = 71.0
+        var weight = 185.0
+        var bodyMassIndex = (weight / (height * height)) * 703
+        NSLog("Body mass index = %f", bodyMassIndex)
+        
         return true
     }
 

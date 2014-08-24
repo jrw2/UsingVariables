@@ -19,6 +19,10 @@
 
     // Insert code here...
     
+    CGFloat height = 71.0,
+        weight = 185.0;
+    CGFloat bodyMassIndex = (weight / (height * height)) * 703;
+    NSLog(@"Body mass index = %f", bodyMassIndex);
     
     return YES;
 }
